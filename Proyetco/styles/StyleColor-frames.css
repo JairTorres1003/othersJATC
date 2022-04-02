@@ -1,0 +1,127 @@
+:root {
+    /** Colores principales para los frames Completos (Fondo)**/
+    --var-color0--: transparent;
+    --var-color1--: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    --var-color2--: linear-gradient(to right, #457fca, #5691c8);
+    --var-color3--: linear-gradient(to right, #e0eafc, #cfdef3);
+    --var-color4--: linear-gradient(0deg, #9cecfb, #65c7f7, #0052d4);;
+    --var-color5--: linear-gradient(180deg, #24c6dc, #514a9d);
+
+    /** Colores Auxiliares para barra (opciones de la ventana y opción menu desplegable) **/
+    --var-colors0Aux_AF--: transparent;
+    --var-colors1Aux_AF--: linear-gradient(to right, #141e30, #243b55);
+    --var-colors2Aux_AF--: linear-gradient(to right, #4b6cb7, #182848);
+    --var-colors3Aux_AF--: rgb(132, 132, 204);
+    --var-colors4Aux_AF--: #333399;
+    --var-colors5Aux_AF--: linear-gradient(to left, #4776e6, #8e54e9);
+
+    /** Colores Auxiliares para la barra (donde se encuentra el Campo de busqueda) **/
+
+    --var-colors0Aux_SP--: transparent;
+    --var-colors1Aux_SP--: linear-gradient(to right, #141e30, #243b55);
+    --var-colors2Aux_SP--: linear-gradient(to right, #4b6cb7, #182848);
+    --var-colors3Aux_SP--: #7474BF;
+    --var-colors4Aux_SP--: #3a7bd5;
+    --var-colors5Aux_SP--:  rgb(127, 127, 212);
+    
+    /** Colores para los botones **/
+    --var-colors0_Btn--: transparent;
+    --var-colors1_Btn--: #243B55;
+    --var-colors2_Btn--: #182848;
+    --var-colors3_Btn--: rgb(132, 132, 204);
+    --var-colors4_Btn--: #333399;
+    --var-colors5_Btn--: #514A9D;
+}
+
+
+/** Aplicación de los colores mediante variables a cada clase correspondiente **/
+/* Color (0) -----------------------------------------------------------------------------------*/
+.colors0 {
+    background: var(--var-color0--);
+}
+.colors0Aux::after {
+    background: var(--var-colors0Aux_AF--);
+}
+.colors0Aux span:nth-child(1) {
+    background: var(--var-colors0Aux_SP--);
+}
+.colors0Btn span:nth-child(1),
+.colors0Btn span:nth-child(2)::before,
+.colors0Btn span:nth-child(2)::after {
+    background: var(--var-colors0_Btn--);
+}
+/* Color (1) -----------------------------------------------------------------------------------*/
+.colors1 {
+    background: var(--var-color1--);
+}
+.colors1Aux::after {
+    background: var(--var-colors1Aux_AF--);
+}
+.colors1Aux span:nth-child(1) {
+    background: var(--var-colors1Aux_SP--);
+}
+.colors1Btn span:nth-child(1) ,
+.colors1Btn span:nth-child(2)::before,
+.colors1Btn span:nth-child(2)::after {
+    background: var(--var-colors1_Btn--);
+}
+/* Color (2) -----------------------------------------------------------------------------------*/
+.colors2 {
+    background: var(--var-color2--);
+}
+.colors2Aux::after {
+    background: var(--var-colors2Aux_AF--);
+}
+.colors2Aux span:nth-child(1) {
+    background: var(--var-colors2Aux_SP--);
+}
+.colors2Btn span:nth-child(1) ,
+.colors2Btn span:nth-child(2)::before,
+.colors2Btn span:nth-child(2)::after{
+    background: var(--var-colors2_Btn--);
+}
+/* Color (3) -----------------------------------------------------------------------------------*/
+.colors3 {
+    background: var(--var-color3--);
+}
+.colors3Aux::after {
+    background: var(--var-colors3Aux_AF--);
+}
+.colors3Aux span:nth-child(1) {
+    background: var(--var-colors3Aux_SP--);
+}
+.colors3Btn span:nth-child(1) ,
+.colors3Btn span:nth-child(2)::before,
+.colors3Btn span:nth-child(2)::after{
+    background: var(--var-colors3_Btn--);
+}
+/* Color (4) -----------------------------------------------------------------------------------*/
+.colors4 {
+    background: var(--var-color4--);
+}
+.colors4Aux::after {
+    background: var(--var-colors4Aux_AF--);
+}
+.colors4Aux span:nth-child(1) {
+    background: var(--var-colors4Aux_SP--);
+}
+.colors4Btn span:nth-child(1) ,
+.colors4Btn span:nth-child(2)::before,
+.colors4Btn span:nth-child(2)::after{
+    background: var(--var-colors4_Btn--);
+}
+/* Color (5) -----------------------------------------------------------------------------------*/
+.colors5 {
+    background: var(--var-color5--);
+}
+.colors5Aux::after {
+    background: var(--var-colors5Aux_AF--);
+}
+.colors5Aux span:nth-child(1) {
+    background: var(--var-colors5Aux_SP--);
+}
+.colors5Btn span:nth-child(1),
+.colors5Btn span:nth-child(2)::before,
+.colors5Btn span:nth-child(2)::after {
+    background: var(--var-colors5_Btn--);
+}
